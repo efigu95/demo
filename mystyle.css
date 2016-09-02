@@ -1,0 +1,37 @@
+body
+{
+	background-color: #333337;
+	color: lightgrey; 
+}
+
+#myimg
+{
+	width: 200px;
+	height: 200px;
+	transform: rotate(90deg);
+	/*margin: 55px;*/
+	/*-webkit-transition: width 2s;
+	-webkit-transition: rotate 2s;
+    transition: all 5s;*/
+    animation: akk 1s linear infinite;
+    border-radius: 50%;
+    animation-timing-count: infinite;
+    animation-delay: 0s;
+}
+
+#myimg:hover
+{
+	transform:scale(2) rotate(0deg);
+}
+
+
+@keyframes akk
+{
+	from {transform: rotate(0deg);}
+	to   {transform: rotate(360deg);}
+}
+
+i:hover
+{
+	color: #8e44ad;
+}
